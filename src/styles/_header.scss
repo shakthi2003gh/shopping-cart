@@ -1,0 +1,13 @@
+header {
+  position: fixed;
+  top: 0;
+  width: 100dvw;
+  background: var(--clr-gray);
+
+  a {
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: royalblue;
+  }
+}
