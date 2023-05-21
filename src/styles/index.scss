@@ -1,5 +1,6 @@
 @forward "utilities";
 @forward "components";
+@forward "pages";
 @forward "header";
 
 :root {
@@ -9,7 +10,6 @@
 
 body {
   min-height: 100dvh;
-  height: 200vh;
   background-color: var(--clr-white);
 }
 
