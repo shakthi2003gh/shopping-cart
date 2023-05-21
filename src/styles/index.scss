@@ -1,0 +1,11 @@
+@forward "utilities";
+
+:root {
+  --clr-white: hsl(0, 100%, 100%);
+  --clr-gray: hsl(0, 0%, 96%);
+}
+
+body {
+  min-height: 100dvh;
+  background-color: var(--clr-white);
+}
