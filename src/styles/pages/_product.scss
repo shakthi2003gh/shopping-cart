@@ -1,0 +1,49 @@
+.product-page {
+  margin-block: 1rem 3rem;
+
+  .product {
+    display: flex;
+    gap: 2.5rem;
+
+    img {
+      width: 40%;
+      aspect-ratio: 1;
+      object-fit: contain;
+      border: 1px solid;
+    }
+
+    .title {
+      font-weight: 700;
+      font-size: 2.8rem;
+    }
+
+    .rating {
+      font-size: 1.5rem;
+      margin-top: 0.5rem;
+
+      .icon {
+        margin-right: 0.5rem;
+        color: #ffd700;
+      }
+    }
+
+    .description {
+      font-size: 1.5rem;
+      margin-block: 2rem;
+      opacity: 0.8;
+    }
+
+    .price {
+      font-size: 3rem;
+      font-weight: 700;
+      color: royalblue;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: end;
+      gap: 2rem;
+      margin-top: 4rem;
+    }
+  }
+}
