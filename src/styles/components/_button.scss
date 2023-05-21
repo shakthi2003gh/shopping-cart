@@ -1,0 +1,19 @@
+button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  border: 0;
+  opacity: 0.9;
+
+  &.btn--primary {
+    color: var(--clr-white);
+    background-color: royalblue;
+  }
+
+  &:hover {
+    opacity: 1;
+  }
+}
