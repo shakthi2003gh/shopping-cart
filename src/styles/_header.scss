@@ -5,10 +5,40 @@ header {
   background: var(--clr-gray);
   z-index: 999;
 
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
   a {
     font-size: 2rem;
     font-weight: 700;
     text-decoration: none;
     color: royalblue;
+  }
+
+  .icon {
+    position: relative;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    color: var(--clr-white);
+    filter: drop-shadow(1px 1px 1px rgb(34, 81, 223));
+
+    &:hover,
+    &.active {
+      color: rgba(65, 105, 225, 0.4);
+    }
+
+    &.item-in-cart::after {
+      position: absolute;
+      top: -5px;
+      right: -5px;
+      content: "";
+      width: 10px;
+      aspect-ratio: 1;
+      background-color: red;
+      border-radius: 100px;
+    }
   }
 }
