@@ -17,3 +17,17 @@ button {
     opacity: 1;
   }
 }
+
+.quantity-btn {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-size: 1.2rem;
+  padding: 0 1rem;
+  background-color: var(--clr-gray);
+
+  .icon {
+    padding: 1rem;
+    cursor: pointer;
+  }
+}
